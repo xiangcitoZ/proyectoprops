@@ -13,6 +13,13 @@ root.render(
   <h1 className='head'> Mi contacto </h1>
 
   <Tarjeta
+  nombre= "Luis Enrique"
+  img='https://images.ecestaticos.com/obewHC2YvfSSsVRzegBgcXNflA8=/43x1:1461x1064/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F9f4%2F0d8%2Fc4c%2F9f40d8c4c98910fd87cfb2794dc69365.jpg' 
+  telefono="123 456 789"
+  email="padrique.com"
+  />
+
+  <Tarjeta
   nombre= {contactos[0].nombre}
   img={contactos[0].img} 
   telefono={contactos[0].telefono}
@@ -33,14 +40,9 @@ root.render(
   email={contactos[2].email}
   />
 
-  <Tarjeta
-  nombre= "luis enrique"
-  img='https://images.ecestaticos.com/obewHC2YvfSSsVRzegBgcXNflA8=/43x1:1461x1064/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F9f4%2F0d8%2Fc4c%2F9f40d8c4c98910fd87cfb2794dc69365.jpg' 
-  telefono="123 456 789"
-  email="padrique.com"
-  />
+  
 
-  {/* <div>
+  <div>
     <div>
       <h2>Luis Enrique</h2>
       <img 
@@ -52,7 +54,7 @@ root.render(
         <p className='info'>padrique.com</p>
       </div>
     </div>
-  </div> */}
+  </div>
 
 </div>
 
